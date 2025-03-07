@@ -1,33 +1,29 @@
-## 🖇️ RAG-as-a-Service with Claude 3.5 Sonnet
-Build and deploy a production-ready Retrieval-Augmented Generation (RAG) service using Claude 3.5 Sonnet and Ragie.ai. This implementation allows you to create a document querying system with a user-friendly Streamlit interface in less than 50 lines of Python code.
+## 🖇️ 使用Claude 3.5 Sonnet的RAG即服务
+使用Claude 3.5 Sonnet和Ragie.ai构建和部署一个生产就绪的检索增强生成（RAG）服务。此实现允许您在不到50行Python代码中创建一个具有用户友好Streamlit界面的文档查询系统。
 
-### Features
-- Production-ready RAG pipeline
-- Integration with Claude 3.5 Sonnet for response generation
-- Document upload from URLs
-- Real-time document querying
-- Support for both fast and accurate document processing modes
+### 功能
+- 生产就绪的RAG管道
+- 与Claude 3.5 Sonnet集成以生成响应
+- 从URL上传文档
+- 实时文档查询
+- 支持快速和准确的文档处理模式
 
-### How to get Started?
+### 如何开始？
 
-1. Clone the GitHub repository
+1. 克隆 Github 仓库
 ```bash
 git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
 cd awesome-llm-apps/rag_tutorials/rag-as-a-service
 ```
 
-2. Install the required dependencies:
+2. 安装所需依赖：
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Get your Anthropic API and Ragie API Key
+3. 获取您的Anthropic API和Ragie API密钥
+- 注册一个[Anthropic账户](https://console.anthropic.com/)并获取您的API密钥
+- 注册一个[Ragie账户](https://www.ragie.ai/)并获取您的API密钥
 
-- Sign up for an [Anthropic account](https://console.anthropic.com/) and get your API key
-- Sign up for an [Ragie account](https://www.ragie.ai/) and get your API key
-
-4. Run the Streamlit app
-```bash
-streamlit run rag_app.py
-```
+4. 运行Streamlit应用
